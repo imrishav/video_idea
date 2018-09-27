@@ -4,5 +4,5 @@ if (process.env.Node_ENV === "production") {
       "mongodb://rishav:rishav21@ds115553.mlab.com:15553/video-idea-prod"
   };
 } else {
-  module.exports = { mongoURI: "mongodb://localhost:27017/videojoy" };
+  module.exports = { mongoURI: "mongodb://localhost/videojoy" };
 }
