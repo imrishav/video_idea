@@ -20,12 +20,12 @@ require("./config/passport")(passport);
 
 //Db COnfig
 
-const db = require("./config/database");
+// const db = require("./config/database");
 //Connect to DB
 
 mongoose
   .connect(
-    db.mongoURI,
+    "mongodb://rishav:rishav21@ds115553.mlab.com:15553/video-idea-prod",
     {
       useNewUrlParser: true
     }
